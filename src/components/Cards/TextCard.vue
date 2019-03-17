@@ -13,7 +13,7 @@
     <div v-else>
       <div class="row">
         <div class="col-sm-5">
-          <img class="card-img-top img-card" :src="img" alt="Card image cap">
+          <h3>{{order}}</h3>
         </div>
         <div class="col-sm-7">
           <div class="card-body">
@@ -43,6 +43,7 @@ export default {
     vertical: Boolean,
     button: Boolean,
     urlParam: String,
+    order: String,
   }
 }
 </script>
